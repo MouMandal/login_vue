@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:rgba(0, 0, 0, 0.588)!important;
+}
+
+form {
+    width: 25%;
+    height: 30%;
+    background-color: white;
+    padding: 50px;
+    color: black;
+    border-radius: 30px;
+    margin-top: 8%;
+    font-family: sans-serif;
+    overflow: auto;
+}
+
+.btn-primary {
+    width: 100%;
+}
+
+.form-control {
+    color: black;
+    border-bottom-color: black;
+    box-shadow: none !important;
+    border: none;
+    border-bottom: 1px solid black;
+    border-radius: 4px 4px 0 0;
+}
+
+@media only screen and (max-width:480px) {
+    form {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:1260px) {
+    form {
+        width: 100%;
+    }
+
+}
